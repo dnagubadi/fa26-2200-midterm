@@ -348,7 +348,7 @@
             content: counter(step, decimal-leading-zero);
             display: block;
             margin-bottom: var(--spacing-sm);
-            font-size: 3rem;
+            font-size: 2rem;
             font-weight: 700;
             line-height: 1;
             color: var(--color-accent);
@@ -424,6 +424,34 @@
         .tool-card:hover .tool-card__title a {
             text-decoration: underline;
             text-decoration-color: var(--color-secondary);
+        }
+
+        .tool-card--green:hover {
+            background-color: #e0eee5;
+        }
+
+        .tool-card--pink:hover {
+            background-color: #f9e0eb;
+        }
+
+        .tool-card--yellow:hover {
+            background-color: #fff4e0;
+        }
+
+        .tool-card--teal:hover {
+            background-color: #e0f4f7;
+        }
+
+        .tool-card--red:hover {
+            background-color: #f9e0e0;
+        }
+
+        .tool-card--purple:hover {
+            background-color: #f0e0f7;
+        }
+
+        .tool-card--blue:hover {
+            background-color: #e0eaf7;
         }
 
         .tool-card__title a:focus-visible {
