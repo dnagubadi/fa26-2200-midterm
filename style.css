@@ -225,7 +225,12 @@
         }
 
         .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: var(--color-background);
             margin-bottom: var(--spacing-xl);
+            padding-top: 20px;
             padding-bottom: var(--spacing-md);
             border-bottom: 2px solid var(--color-neutral);
         }
